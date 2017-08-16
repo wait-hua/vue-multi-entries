@@ -1,0 +1,19 @@
+@import '../../common/_config';
+.m-page {
+    padding-bottom: $distanceSmall;
+    .page-header {
+        height: 55px;
+        line-height: 55px;
+        margin-bottom: 26px;
+        padding: 0 $distanceMiddle;
+        border-bottom: 1px solid $borderColor;
+    }
+    .page-title {
+        border-left: 4px solid #3c8dbc;
+        padding-left: 10px;
+        font-size: $fontSizePrimary;
+        display: inline-block;
+        line-height: $inputHeight;
+        margin: 0px;
+    }
+}

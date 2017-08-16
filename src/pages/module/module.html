@@ -1,0 +1,27 @@
+<m-base class="m-module" title="模块管理">
+    <div class="m-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>模块ID</th>
+                    <th>模块名称</th>
+                    <th>模块描述</th>
+                    <th>模块序号</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(item, index) in list">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.desc}}</td>
+                    <td><m-select ref='sequ' :options="options" :value="item.sequence"></m-select></td>
+                    <td>
+                        <button class="u-btn u-btn-small" v-on:click="update(item, index)" style="margin-right:15px;">更新</button>
+                        <button class="u-btn u-btn-small u-btn-red" v-on:click="reset(item, index)">重置</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</m-base>

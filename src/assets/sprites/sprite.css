@@ -1,0 +1,183 @@
+.i-icon {
+    display: inline-block;
+    background: url(./sprite.png) no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+    .i-icon {
+        background: url(./sprite@2x.png) no-repeat;
+        background-size: 130px 1048px;
+    }
+}
+
+.i-icon-brands {
+    background-position: 0px -320px;
+    width: 24px;
+    height: 24px;
+}
+.i-icon-buy-next-finish {
+    background-position: 0px -536px;
+    width: 32px;
+    height: 32px;
+}
+.i-icon-buy-next-unfinish {
+    background-position: 0px -502px;
+    width: 32px;
+    height: 32px;
+}
+.i-icon-check1 {
+    background-position: 0px -78px;
+    width: 16px;
+    height: 16px;
+}
+.i-icon-check2 {
+    background-position: 0px -28px;
+    width: 14px;
+    height: 14px;
+}
+.i-icon-circle-selected {
+    background-position: 0px -96px;
+    width: 17px;
+    height: 16px;
+}
+.i-icon-circle {
+    background-position: 0px -114px;
+    width: 17px;
+    height: 16px;
+}
+.i-icon-company {
+    background-position: 0px -424px;
+    width: 24px;
+    height: 24px;
+}
+.i-icon-dates {
+    background-position: 0px -294px;
+    width: 24px;
+    height: 24px;
+}
+.i-icon-delete {
+    background-position: 0px -150px;
+    width: 20px;
+    height: 20px;
+}
+.i-icon-error {
+    background-position: 0px -978px;
+    width: 70px;
+    height: 70px;
+}
+.i-icon-gotop {
+    background-position: 0px -44px;
+    width: 14px;
+    height: 14px;
+}
+.i-icon-left-normal {
+    background-position: 0px -916px;
+    width: 60px;
+    height: 60px;
+}
+.i-icon-left-pressed {
+    background-position: 0px -730px;
+    width: 60px;
+    height: 60px;
+}
+.i-icon-meaningful {
+    background-position: 0px -268px;
+    width: 24px;
+    height: 24px;
+}
+.i-icon-more-active {
+    background-position: 0px 0px;
+    width: 12px;
+    height: 12px;
+}
+.i-icon-more-normal {
+    background-position: 0px -14px;
+    width: 12px;
+    height: 12px;
+}
+.i-icon-names {
+    background-position: 0px -216px;
+    width: 24px;
+    height: 24px;
+}
+.i-icon-package {
+    background-position: 0px -372px;
+    width: 24px;
+    height: 24px;
+}
+.i-icon-password-cipher {
+    background-position: 0px -172px;
+    width: 20px;
+    height: 20px;
+}
+.i-icon-password-clear {
+    background-position: 0px -194px;
+    width: 20px;
+    height: 20px;
+}
+.i-icon-pay-ali {
+    background-position: 0px -646px;
+    width: 106px;
+    height: 40px;
+}
+.i-icon-pay-success {
+    background-position: 0px -608px;
+    width: 36px;
+    height: 36px;
+}
+.i-icon-pay-waiting {
+    background-position: 0px -570px;
+    width: 36px;
+    height: 36px;
+}
+.i-icon-pay-wechat {
+    background-position: 0px -688px;
+    width: 130px;
+    height: 40px;
+}
+.i-icon-quest {
+    background-position: 0px -60px;
+    width: 16px;
+    height: 16px;
+}
+.i-icon-record {
+    background-position: 0px -346px;
+    width: 24px;
+    height: 24px;
+}
+.i-icon-renewal {
+    background-position: 0px -242px;
+    width: 24px;
+    height: 24px;
+}
+.i-icon-rhythmical {
+    background-position: 0px -450px;
+    width: 24px;
+    height: 24px;
+}
+.i-icon-right-normal {
+    background-position: 0px -792px;
+    width: 60px;
+    height: 60px;
+}
+.i-icon-right-pressed {
+    background-position: 0px -854px;
+    width: 60px;
+    height: 60px;
+}
+.i-icon-search {
+    background-position: 0px -398px;
+    width: 24px;
+    height: 24px;
+}
+.i-icon-warn {
+    background-position: 0px -132px;
+    width: 16px;
+    height: 16px;
+}
+.i-icon-words {
+    background-position: 0px -476px;
+    width: 24px;
+    height: 24px;
+}
