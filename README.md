@@ -1,6 +1,4 @@
-# y
-
-> A Vue.js project
+# Vue多页面打包
 
 ## Build Setup
 
@@ -14,17 +12,22 @@ npm run dev
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
+浏览器中打开：
+localhost:8080 : 入口一个单页面的后台管理页面
+localhost:8080/more.html : 入口二页面
+localhost:8080/two.html : 入口三页面
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 页面入口文件
+src/view/ 下每个文件夹的.hbs都是入口文件（除去config目录下为handerbars模板文件），命名规则为：
+|-page
+|--page.hbs
+|--page.js
+|--page.vue
+
+## 支持功能
+
+- 多入口页面打包
+- handerbars模板文件
+- 雪碧图合成
+- sass 引用资源别名配置
